@@ -22,15 +22,16 @@ ripple emulate
 
 **Fixing common problems**
 ```plaintext
-Error: GET http://localhost:4400/config.xml 404 (Not Found)`
+Error:
+    GET http://localhost:4400/config.xml 404 (Not Found)`
 Solution:
     cp config.xml www/config.xml
 ```
 
 ```bash
 Error:
-  cordova :: Your application does not appear to match the platform you have selected. The version number in your configuration might not match the selected platform version or your configuration file has errors in it.
+    cordova :: Your application does not appear to match the platform you have selected. The version number in your configuration might not match the selected platform version or your configuration file has errors in it.
 Solution:
-  Edit the www/config.xml file and adds the following attribute to the widget node:
-  xmlns:gap="http://phonegap.com/ns/1.0"
+    Edit the www/config.xml file and adds the following attribute to the widget node:
+    xmlns:gap="http://phonegap.com/ns/1.0"
 ```
