@@ -40,16 +40,16 @@ cordova platform ls
 cordova build android
 ```
 
-**Running platforms**
-```bash
-# Runs an specific platform:
-# cordova run <platform>
-cordova run android
-```
-
 The previous command is equivalent to the following two commands:
 ```bash
 # copies files and compiles the sources
 cordova prepare android
 cordova compile android
+```
+
+**Running platforms**
+```bash
+# Runs an specific platform:
+# cordova run <platform>
+cordova run android
 ```
