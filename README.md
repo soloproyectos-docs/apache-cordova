@@ -4,14 +4,14 @@ Apache Cordova
 Command-Line Shortcuts
 ----------------------
 
-### Creating projects
+**Creating projects**
 ```bash
 # Creates a project:
 # cordova create <project> <reverse-domain> <ClassName>
 cordova create test com.my_domain.test Test
 ```
 
-### Adding and listing platforms
+**Adding and listing platforms**
 ```bash
 # Adds an specific platform:
 # cordova platform add <platform>
@@ -21,7 +21,7 @@ cordova platform add android
 cordova platform ls
 ```
 
-### Compiling platforms
+**Compiling platforms**
 ```bash
 # Builds a platform:
 # cordova build [<platform>]
