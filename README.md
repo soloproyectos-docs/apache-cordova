@@ -1,4 +1,4 @@
-# Apache Cordova Tutorials
+# Apache Cordova tutorials
 
-* [Command-Line Shortcuts](command-line.md)
-* [Lightweight Emulator](emulators.md)
+* [Command-Line shortcuts](command-line.md)
+* [Lightweight emulator](emulators.md)
