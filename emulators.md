@@ -1,4 +1,4 @@
-# Installing lightweight emulators
+# Lightweight Emulators
 
 You can either install ripple, a web based emulator, or GenyMotion, a desktop application.
 
@@ -10,7 +10,12 @@ Instructions based on the following tutorials:
 
 **Installs, prepares and launches the ripple emulator in a new browser window**
 ```bash
+# Install ripple emulator globaly via npm (Node Package Manager)
 sudo npm install -g ripple-emulator
+
+# Copies the static files
 cordova prepare android
+
+# Launches ripple in a new browser window
 ripple emulate
 ```
