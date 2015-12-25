@@ -4,7 +4,7 @@ Apache Cordova
 Command-Line Shortcuts
 ----------------------
 
-**Creating projects**
+### Creating projects
 ```bash
 # Creates a project:
 # cordova create <project> <reverse-domain> <ClassName>
