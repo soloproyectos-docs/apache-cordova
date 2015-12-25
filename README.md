@@ -18,8 +18,10 @@ cordova create --help
 ```bash
 # Creates a project:
 # cordova create <project> <reverse-domain> <ClassName>
-cordova create test com.my_domain.test Test
+cordova create my-first-app com.my_domain.my_first_app MyFirstApp
 ```
+
+The argument `reverse-domain` does not accept hyphen characters (-).
 
 **Adding and listing platforms**
 ```bash
