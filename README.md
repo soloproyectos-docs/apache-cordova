@@ -21,7 +21,7 @@ cordova create --help
 cordova create my-first-app com.my_domain.my_first_app MyFirstApp
 ```
 
-The argument `reverse-domain` does not accept hyphen characters (-).
+The `<reverse-domain>` argument does not accept hyphen characters (-).
 
 **Adding and listing platforms**
 ```bash
