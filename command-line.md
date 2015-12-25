@@ -19,14 +19,18 @@ cordova create my-first-app com.my_domain.my_first_app MyFirstApp
 
 The `<reverse-domain>` argument does not accept hyphen characters (-).
 
-**Adding and listing platforms**
+**Managing platforms**
 ```bash
+# List installed and available platforms
+cordova platform ls
+
 # Adds an specific platform:
 # cordova platform add <platform>
 cordova platform add android
 
-# List installed and available platforms
-cordova platform ls
+# Removes an specific platform:
+# cordova platform rm <platform>
+cordova platform rm android
 ```
 
 **Compiling platforms**
@@ -46,6 +50,6 @@ cordova compile android
 **Running platforms**
 ```bash
 # Runs an specific platform:
-# cordova run <platform>
+# cordova run [<platform>]
 cordova run android
 ```
