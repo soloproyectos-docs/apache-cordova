@@ -34,3 +34,12 @@ The previous command is equivalent to
 cordova prepare android
 cordova compile android
 ```
+
+**Help**
+```bash
+# Prints general help
+cordova --help
+
+# Prints command help
+cordova create --help
+```
