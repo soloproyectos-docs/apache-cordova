@@ -2,6 +2,13 @@
 
 You can either install [ripple](https://www.npmjs.com/package/ripple-emulator), a web based emulator, or [GenyMotion](https://www.genymotion.com/), a desktop application. Personally, I recommend using GenyMotion.
 
+## Installing GenyMotion
+
+GenyMotion **is not a free** application. But, for personal use or training, you can download a free version:
+https://www.genymotion.com/#!/download
+
+Change the permissions to allow execution and double click.
+
 ## Installing Ripple
 
 Instructions based on the following tutorials:
@@ -35,10 +42,3 @@ Solution:
     Edit the www/config.xml file and adds the following attribute to the widget node:
     xmlns:gap="http://phonegap.com/ns/1.0"
 ```
-
-## Installing GenyMotion
-
-GenyMotion **is not a free** application. But, for personal use or training, you can download a free version:
-https://www.genymotion.com/#!/download
-
-Change the permissions to allow execution and double click.
