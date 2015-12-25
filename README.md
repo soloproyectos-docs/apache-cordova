@@ -1,8 +1,7 @@
 Apache Cordova
 ==============
 
-Command-Line Shortcuts
-----------------------
+## Command-Line Shortcuts
 
 **Getting help**
 ```bash
