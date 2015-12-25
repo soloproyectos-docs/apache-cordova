@@ -4,6 +4,16 @@ Apache Cordova
 Command-Line Shortcuts
 ----------------------
 
+**Getting help**
+```bash
+# Prints general help
+cordova --help
+
+# Prints command help:
+# cordova <command> --help
+cordova create --help
+```
+
 **Creating projects**
 ```bash
 # Creates a project:
@@ -28,18 +38,16 @@ cordova platform ls
 cordova build android
 ```
 
+**Running platforms**
+```bash
+# Runs an specific platform:
+# cordova run <platform>
+cordova run android
+```
+
 The previous command is equivalent to
 ```bash
 # copies files and compiles the sources
 cordova prepare android
 cordova compile android
-```
-
-**Help**
-```bash
-# Prints general help
-cordova --help
-
-# Prints command help
-cordova create --help
 ```
