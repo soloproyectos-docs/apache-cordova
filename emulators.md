@@ -1,6 +1,6 @@
 # Lightweight Emulators
 
-You can either install [ripple](https://www.npmjs.com/package/ripple-emulator), a web based emulator, or [GenyMotion](https://www.genymotion.com/), a desktop application. Personally, I recommend using GenyMotion.
+You can either install [ripple](https://www.npmjs.com/package/ripple-emulator), a web based emulator, or [GenyMotion](https://www.genymotion.com/), a desktop application.
 
 ## Installing GenyMotion
 
