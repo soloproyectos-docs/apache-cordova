@@ -84,7 +84,7 @@ export PATH=$PATH:<android-sdk-dir>/tools
 
 And reload the user profile settings:
 ```bash
-# appends the following line to the ~/.profile file (replace <android-sdk-dir> by the correct directory):
+# Open the ~/.profile file with your preferred editor and add the following line (replace <android-sdk-dir> by re correct directory):
 # export PATH=$PATH:<android-sdk-dir>/tools
 $ <your-preferred-editor> ~/.profile
 ```
