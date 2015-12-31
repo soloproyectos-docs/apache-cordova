@@ -82,15 +82,15 @@ $ source ~/.profile
   ```bash
   export PATH=$PATH:<android-sdk-dir>/tools
   ```
-  **Do not forget to replace <android-sdk-dir> by the Android SDK directory.**
+  **Do not forget to replace `<android-sdk-dir>` by the Android SDK directory.**
 
-And finally reload the user profile settings:
-```bash
-source ~/.profile
-```
+  And finally reload the user profile settings:
+  ```bash
+  source ~/.profile
+  ```
 
 4. Open the android manager (`<android-sdk-dir>/tools/android`) and install the packages marked by default.
-The previous action will install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API.
+  The previous action will install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API.
 
 ## Install Apache Cordova CLI
 Instructions are based on:  
