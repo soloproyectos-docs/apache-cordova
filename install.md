@@ -6,7 +6,7 @@ This tutorial describes the necessary steps to install and prepare [Apache Cordo
 * [NodeJs](https://nodejs.org/en/)
 * [Node Package Manager (npm)](https://www.npmjs.com/)
 * [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [Android SDK](http://developer.android.com/sdk/installing/index.html)
+* [Android SDK tools](http://developer.android.com/sdk/installing/index.html)
 
 Instructions are based in the following turorials:  
 https://cordova.apache.org/docs/en/latest/guide/cli/index.html
@@ -69,22 +69,21 @@ and reload environment variables:
 $ source ~/.profile
 ```
 
-## Install Android SDK (Software Development Kit)
+## Install Android SDK tools
 
 1. Download the Stand-alone SDK tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
 
 2. Unzip the file in an appropriate place.  
 **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
 
-3. Open the android manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API (the packages marked by default).
+3. Open Android Manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API (actually the packages marked by default).
 
-4. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`
+4. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`:
 
-  Open `~/.profile` with your preferred editor and adds the following line at the end of the file:
+  Open the `~/.profile` file with your preferred editor and adds the following line at the end (**Do not forget to replace `<android-sdk-dir>` by the Android SDK directory.**):
   ```bash
   export PATH=$PATH:<android-sdk-dir>/tools
   ```
-  **Do not forget to replace `<android-sdk-dir>` by the Android SDK directory.**
 
   And finally reload the user profile settings:
   ```bash
