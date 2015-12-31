@@ -121,7 +121,7 @@ $ cordova -v
   $ cd test
   
   # add and compile the android platform
-  $ cordova platform android
+  $ cordova platform add android
   $ cordova build android
   ```
 2. Open GenyMotion (`<genymotion-dir>/android`), start an emulator and run the test application
