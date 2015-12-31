@@ -60,12 +60,12 @@ $ sudo curl -L https://npmjs.org/install.sh | sh
 Install JDK **manually**:  
 http://askubuntu.com/a/55960/260035
 
-Open the ~/.profile file with your preferred editor and adds the following line to the end (**replace `<jdk-dir>` by the correct directory**):
+and change the environment `PATH` path variable by adding the following line to the `~/.profile` file (**replace `<jdk-dir>` by the correct directory**):
 ```bash
 export JAVA_HOME=/usr/lib/jvm/<jdk-dir>
 ```
 
-and reload the user profile settings:
+and finally reload the user profile settings:
 ```bash
 $ source ~/.profile
 ```
