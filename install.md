@@ -75,7 +75,7 @@ and finally re-logging to make the changes permanent.
 
 3. Open Android Manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools', 'Android Support Repository (Extras)' and 'Android 5.1.1' (API 22). This process may take several hours and it requires, at least, a lot of available gigabytes.
 
-4. Change the environment `PATH` variable include the `<android-sdk-dir>/tools` and `<android-sdk-dir>/platform-tools` directories:
+4. Change the environment `PATH` variable to include the `<android-sdk-dir>/tools` and `<android-sdk-dir>/platform-tools` directories:
 
   Open the `~/.profile` file with your preferred editor and add the following line to the end (**replace `<android-sdk-dir>` by the correct directory.**):
   ```bash
