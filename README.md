@@ -1,4 +1,5 @@
 # Apache Cordova tutorials
 
-* [Apache Cordova CLI, useful commands](command-line.md)
-* [Lightweight emulators](emulators.md)
+* [Chapter I: Install Apache Cordova]
+* [Chapter II: Apache Cordova CLI, useful commands](command-line.md)
+* [Chapter III: Testing](emulators.md)
