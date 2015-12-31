@@ -2,12 +2,23 @@
 
 This tutorial describes the necessary steps to install and prepare [Apache Cordova](https://cordova.apache.org/) on **Ubuntu 14.04**. Apache Cordova requires de following programs:
 
-1. [NodeJs](https://nodejs.org/en/)
-2. [Node Package Manager (npm)](https://www.npmjs.com/)
-3. [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Git client](https://git-scm.com/)
+* [NodeJs](https://nodejs.org/en/)
+* [Node Package Manager (npm)](https://www.npmjs.com/)
+* [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 Instructions are based in the following turorial:  
 https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
+
+## Install Git client
+
+```bash
+$ sudo apt-get install git
+
+# verify that nodejs was installed correctly
+$ git --version
+git version 1.9.1
+```
 
 ## Install NodeJS
 
