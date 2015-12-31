@@ -125,8 +125,11 @@ https://cordova.apache.org/docs/en/latest/guide/cli/index.html#link-2
   # add, compile the android platform
   $ cordova platform android
   $ cordova build android
+  ```
+2. Open GenyMotion (`<genymotion-dir>/android`), start an emulator and run the test application
+
+  Using GenyMotion is optional. You can run the following command directly. In that case Apache Cordova will open the Android SDK Emulator. But I prefer to use GenyMotion for the reasons commented previously.
+  
+  ```bash
   $ cordova run android
   ```
-2. Open GenyMotion, start an emulator run the test application
-
-  Starting GenyMotion is optional. You can run the following command directly. In that case, it will open the Android SDK Emulator. But I prefer to use GenyMotion for the reasons commented previously.
