@@ -74,7 +74,7 @@ $ source ~/.profile
 
 1. Download the Stand-alone SDK tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
 
-2. Unzip the file in an appropriate place. **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
+2. Unzip the file in an appropriate place. **From now on `<android-sdk-dir>` refers to the Android SDK installation directory.**
 
 3. Open Android Manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API (actually the packages marked by default). This process may take several hours and it requires, at least, a lot of available gigabytes.
 
@@ -99,7 +99,7 @@ The Android SDK emulator is slow, heavy and buggy. That's the reason why I decid
   sudo apt-get install virtualbox
   ```
 
-2. Download and install GenyMotion (free version). **From now on `<genymotion-dir>` refers to the GenyMotion directory**:  
+2. Download and install GenyMotion (free version). **From now on `<genymotion-dir>` refers to the GenyMotion installation directory**:  
 https://www.genymotion.com/#!/download
 
 3. Open GenyMotion (`<genymotion-dir>/genymotion`) and add a virtual device.
