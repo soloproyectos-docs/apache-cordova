@@ -92,14 +92,14 @@ $ source ~/.profile
   
 ## Install GenyMotion (Optional)
 
-The Android SDK emulator is slow, heavy and buggy. That's the reason why I decided to install the GenyMotion emulator. **It is not a free program**. It requires a monthly subscription payment. But for trying purposes you can use a free version.
+The Android SDK emulator is slow, heavy and buggy. That's the reason why I decided to install [GenyMotion](https://www.genymotion.com). **It is not a free program**. It requires a monthly subscription payment. But for trying purposes you can use a free version.
 
 1. Install VirtualBox:
   ```bash
   sudo apt-get install virtualbox
   ```
 
-2. Download and install GenyMotion (free version). **From now on `<genymotion-dir>` refers to the GenyMotion directory**:
+2. Download and install GenyMotion (free version). **From now on `<genymotion-dir>` refers to the GenyMotion directory**:  
 https://www.genymotion.com/#!/download
 
 3. Open GenyMotion (`<genymotion-dir>/genymotion`) and add a virtual device.
