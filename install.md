@@ -73,7 +73,7 @@ $ source ~/.profile
 
 1. Download the Stand-alone SDK tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
 
-2. Unzip the file in an appropriate place **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
+2. Unzip the file in an appropriate place. **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
 
 3. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`
 Edit the `~/.profile` file and add the following line:
