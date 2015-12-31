@@ -80,7 +80,7 @@ $ source ~/.profile
 
 4. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`:
 
-  Open the `~/.profile` file with your preferred editor and adds the following line at the end (**replace `<android-sdk-dir>` by the correct directory.**):
+  Open the `~/.profile` file with your preferred editor and add the following line to the end (**replace `<android-sdk-dir>` by the correct directory.**):
   ```bash
   export PATH=$PATH:<android-sdk-dir>/tools
   ```
