@@ -11,7 +11,7 @@ https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
 
 ## Install NodeJS
 
-Instructions are based in the following tutorial:  
+Instructions are based on the following tutorial:  
 https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 
 ```bash
@@ -25,7 +25,7 @@ v4.2.4
 ```
 
 ## Install Node Package Manager (npm)
-Instruction are based in the following tutorial (Fancy Install section):  
+Instruction are based on the following tutorial (Fancy Install section):  
 https://www.npmjs.com/package/npm
 
 ```bash
