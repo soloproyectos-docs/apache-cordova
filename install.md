@@ -60,12 +60,12 @@ $ sudo curl -L https://npmjs.org/install.sh | sh
 Install JDK **manually**:  
 http://askubuntu.com/a/55960/260035
 
-and add the following line to the ~/.profile file (**paths may vary**):
-```text
-JAVA_HOME=/usr/lib/jvm/jdk1.8.0_65
+Open the ~/.profile file with your preferred editor and adds the following line to the end (**replace `<jdk-dir>` by the correct directory**):
+```bash
+export JAVA_HOME=/usr/lib/jvm/<jdk-dir>
 ```
 
-and reload environment variables:
+and reload the user profile settings:
 ```bash
 $ source ~/.profile
 ```
@@ -80,7 +80,7 @@ $ source ~/.profile
 
 4. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`:
 
-  Open the `~/.profile` file with your preferred editor and adds the following line at the end (**do not forget to replace `<android-sdk-dir>` by the Android SDK directory.**):
+  Open the `~/.profile` file with your preferred editor and adds the following line at the end (**replace `<android-sdk-dir>` by the correct directory.**):
   ```bash
   export PATH=$PATH:<android-sdk-dir>/tools
   ```
