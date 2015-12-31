@@ -69,7 +69,7 @@ and finally re-logging to make the changes permanent.
 
 ## Install Android SDK tools
 
-1. Download the Stand-alone SDK tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
+1. Download the Stand-alone SDK Tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
 
 2. Unzip the file in an appropriate place. **From now on `<android-sdk-dir>` refers to the Android SDK installation directory.**
 
