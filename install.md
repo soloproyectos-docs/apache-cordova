@@ -73,10 +73,14 @@ $ source ~/.profile
 
 1. Download the Stand-alone SDK tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
 
-2. Unzip the file in an appropriate place.
-**From now on `<android-sdk-dir>` refers to the Android SDK directory.**
+2. Unzip the file in an appropriate place **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
 
 3. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`
+Edit the `~/.profile` file and add the following line:
+```bash
+# !!! Do not forget to change `<android-sdk-dir>` by your Android SDK directory.**
+export PATH=$PATH:<android-sdk-dir>/tools
+```
 
 4. Open the android manager (`<android-sdk-dir>/tools/android`) and install the packages marked by default.
 The previous action will install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API.
