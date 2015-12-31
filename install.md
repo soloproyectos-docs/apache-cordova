@@ -113,15 +113,20 @@ https://cordova.apache.org/docs/en/latest/guide/cli/index.html#link-2
   5.4.1
   ```
   
-2. Test the installation
+## Test Apache Cordova CLI
+
+1. Create and compile a test project
 
   ```bash
   # create a project
   $ cordova create test com.my_domain.test Test
   $ cd test
   
-  # add, compile and run the android platform
+  # add, compile the android platform
   $ cordova platform android
   $ cordova build android
   $ cordova run android
   ```
+2. Open GenyMotion, start an emulator run the test application
+
+  Starting GenyMotion is optional. You can run the following command directly. In that case, it will open the Android SDK Emulator. But I prefer to use GenyMotion for the reasons commented previously.
