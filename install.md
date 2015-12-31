@@ -7,6 +7,7 @@ This tutorial describes the necessary steps to install and prepare [Apache Cordo
 * [Node Package Manager (npm)](https://www.npmjs.com/)
 * [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Android SDK tools](http://developer.android.com/sdk/installing/index.html)
+* [GenyMotion](https://www.genymotion.com/#!/) (Optional)
 
 Instructions are based in the following turorials:  
 https://cordova.apache.org/docs/en/latest/guide/cli/index.html
