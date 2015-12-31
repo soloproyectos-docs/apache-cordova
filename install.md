@@ -73,7 +73,7 @@ and finally re-logging to make the changes persistent.
 
 2. Unzip the file in an appropriate place. **From now on `<android-sdk-dir>` refers to the Android SDK installation directory.**
 
-3. Open Android Manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API (actually the packages marked by default). This process may take several hours and it requires, at least, a lot of available gigabytes.
+3. Open Android Manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and 'Android 5.1.1' (API 22). This process may take several hours and it requires, at least, a lot of available gigabytes.
 
 4. Change the environment `PATH` variable include the `<android-sdk-dir>/tools` and `<android-sdk-dir>/platform-tools` directories:
 
@@ -102,9 +102,10 @@ https://www.genymotion.com/#!/download
 Instructions are based on:  
 https://cordova.apache.org/docs/en/latest/guide/cli/index.html#link-2
 
-1. Install command line interface (CLI):
+1. Install the command line interface (CLI):
+
   ```bash
-  # install command line interface (CLI) globaly (-g)
+  # install the command line interface (CLI) globaly (-g)
   $ sudo npm install -g cordova
   
   # verify that cordova was installed correctly
