@@ -102,16 +102,14 @@ https://www.genymotion.com/#!/download
 Instructions are based on:  
 https://cordova.apache.org/docs/en/latest/guide/cli/index.html#link-2
 
-1. Install the command line interface (CLI):
+```bash
+# install the command line interface (CLI) globaly (-g)
+$ sudo npm install -g cordova
 
-  ```bash
-  # install the command line interface (CLI) globaly (-g)
-  $ sudo npm install -g cordova
-  
-  # verify that cordova was installed correctly
-  $ cordova -v
-  5.4.1
-  ```
+# verify that cordova was installed correctly
+$ cordova -v
+5.4.1
+```
   
 ## Test Apache Cordova CLI
 
