@@ -1,6 +1,10 @@
 # Install Apache Cordova
 
-This tutorial describes the necessary steps to install and prepare Apache Cordova on Ubuntu 14.04.
+This tutorial describes the necessary steps to install and prepare Apache Cordova on Ubuntu 14.04. Apache Cordova requires de following programs:
+
+1. [NodeJs](https://nodejs.org/en/)
+2. [Node Package Manager (npm)](https://www.npmjs.com/)
+3. [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 ## Install NodeJS
 
