@@ -6,6 +6,9 @@ This tutorial describes the necessary steps to install and prepare [Apache Cordo
 2. [Node Package Manager (npm)](https://www.npmjs.com/)
 3. [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
+Instructions are based in the following turorial:  
+https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
+
 ## Install NodeJS
 
 Instructions are based in the following tutorial:  
@@ -21,8 +24,18 @@ $ node -v
 v4.2.4
 ```
 
-This tutorial is based on the Apache Platform Guide:  
-https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
+## Install Node Package Manager (npm)
+Instruction are based in the following tutorial (Fancy Install section):  
+https://www.npmjs.com/package/npm
+
+```bash
+$ sudo su
+curl -L https://npmjs.org/install.sh | sh
+
+# verify that npm was installed correctly
+$ npm -v
+3.5.2
+```
 
 ## Install JDK
 Install JDK **manually**:  
