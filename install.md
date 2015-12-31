@@ -76,7 +76,9 @@ $ source ~/.profile
 2. Unzip the file in an appropriate place.  
 **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
 
-3. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`
+3. Open the android manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API (the packages marked by default).
+
+4. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`
 
   Open `~/.profile` with your preferred editor and adds the following line at the end of the file:
   ```bash
@@ -88,9 +90,6 @@ $ source ~/.profile
   ```bash
   source ~/.profile
   ```
-
-4. Open the android manager (`<android-sdk-dir>/tools/android`) and install the packages marked by default.
-  The previous action will install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API.
 
 ## Install Apache Cordova CLI
 Instructions are based on:  
