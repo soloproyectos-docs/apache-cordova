@@ -89,6 +89,19 @@ $ source ~/.profile
   ```bash
   source ~/.profile
   ```
+  
+## Install GenyMotion (Optional)
+
+The Android SDK emulator is slow, heavy and buggy. That's the reason why I decided to install the GenyMotion emulator. **It is not a free program**. It requires a monthly subscription payment. But for trying purposes you can use a free version.
+
+1. Install VirtualBox:
+  ```bash
+  sudo apt-get install virtual-box
+  ```
+
+2. Download and install GenyMotion (free version):  
+https://www.genymotion.com/#!/download
+
 
 ## Install Apache Cordova CLI
 Instructions are based on:  
