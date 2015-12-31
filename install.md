@@ -65,10 +65,7 @@ and change the environment `PATH` path variable by adding the following line to 
 export JAVA_HOME=/usr/lib/jvm/<jdk-dir>
 ```
 
-and finally reload the user profile settings:
-```bash
-$ source ~/.profile
-```
+and finally re-logging to make the changes persistent.
 
 ## Install Android SDK tools
 
@@ -85,10 +82,7 @@ $ source ~/.profile
   export PATH=$PATH:<android-sdk-dir>/tools:<android-sdk-dir>/platform-tools/
   ```
 
-  and finally reload the user profile settings:
-  ```bash
-  source ~/.profile
-  ```
+  and finally re-logging to make the changes persistent.
   
 ## Install GenyMotion (Optional)
 
