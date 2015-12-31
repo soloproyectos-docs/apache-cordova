@@ -75,18 +75,17 @@ $ source ~/.profile
 
 2. Unzip the file in an appropriate place. **From now on `<android-sdk-dir>` refers to the Android SDK directory.**
 
-3. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`  
-Edit the `~/.profile` file and add the following line:
+3. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`
+
+Open `~/.profile` with your preferred editor and adds the following line at the end of the file:
 ```bash
-# !!! Do not forget to change `<android-sdk-dir>` by your Android SDK directory.**
 export PATH=$PATH:<android-sdk-dir>/tools
 ```
+**Do not forget to replace <android-sdk-dir> by the Android SDK directory.**
 
-And reload the user profile settings:
+And finally reload the user profile settings:
 ```bash
-# Open the ~/.profile file with your preferred editor and add the following line (replace <android-sdk-dir> by re correct directory):
-# export PATH=$PATH:<android-sdk-dir>/tools
-$ <your-preferred-editor> ~/.profile
+source ~/.profile
 ```
 
 4. Open the android manager (`<android-sdk-dir>/tools/android`) and install the packages marked by default.
