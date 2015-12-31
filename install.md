@@ -29,12 +29,18 @@ Instruction are based on (Fancy Install section):
 https://www.npmjs.com/package/npm
 
 ```bash
+# log as superuser and execute the online script
 $ sudo su
-curl -L https://npmjs.org/install.sh | sh
+$ curl -L https://npmjs.org/install.sh | sh
 
 # verify that npm was installed correctly
 $ npm -v
 3.5.2
+```
+
+The following command **won't work**:
+```bash
+$ sudo curl -L https://npmjs.org/install.sh | sh
 ```
 
 ## Install JDK
