@@ -7,7 +7,8 @@ This tutorial describes the necessary steps to install and prepare [Apache Cordo
 * [Node Package Manager (npm)](https://www.npmjs.com/)
 * [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-Instructions are based in the following turorial:  
+Instructions are based in the following turorials:  
+https://cordova.apache.org/docs/en/latest/guide/cli/index.html
 https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
 
 ## Install Git client
@@ -64,9 +65,18 @@ JAVA_HOME=/usr/lib/jvm/jdk1.8.0_65
 
 and reload environment variables:
 ```bash
-source ~/.profile
+$ source ~/.profile
 ```
 
-## Install the Android SDK
-Download and unzip the SDK for linux (android-sdk_r*-linux.tgz):  
-http://developer.android.com/sdk/index.html#Other
+## Install Apache Cordova CLI
+Instructions are based on:  
+https://cordova.apache.org/docs/en/latest/guide/cli/index.html#link-2
+
+```bash
+# install command line interface (CLI) globaly (-g)
+$ sudo npm install -g cordova
+
+# verify that cordova was installed correctly
+$ cordova -v
+5.4.1
+```
