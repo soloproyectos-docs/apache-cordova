@@ -1,6 +1,6 @@
-# Install Apache Cordova
+# Install Apache Cordova CLI
 
-This tutorial describes the necessary steps to install and prepare [Apache Cordova](https://cordova.apache.org/) on **Ubuntu 14.04**. Apache Cordova requires de following programs:
+This tutorial describes the necessary steps to install and prepare [Apache Cordova CLI](https://cordova.apache.org/) on **Ubuntu 14.04**. Apache Cordova requires de following programs:
 
 * [Git client](https://git-scm.com/)
 * [NodeJs](https://nodejs.org/en/)
