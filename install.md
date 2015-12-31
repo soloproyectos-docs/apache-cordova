@@ -120,7 +120,7 @@ $ cordova -v
   $ cordova create test com.my_domain.test Test
   $ cd test
   
-  # add, compile the android platform
+  # add and compile the android platform
   $ cordova platform android
   $ cordova build android
   ```
