@@ -78,11 +78,11 @@ $ source ~/.profile
 
 3. Open Android Manager (`<android-sdk-dir>/tools/android`) and install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API (actually the packages marked by default). This process may take several hours and it requires, at least, a lot of available gigabytes.
 
-4. Change the environment `PATH` variable to point to `<android-sdk-dir>/tools`:
+4. Change the environment `PATH` variable include the `<android-sdk-dir>/tools` and `<android-sdk-dir>/platform-tools` directories:
 
   Open the `~/.profile` file with your preferred editor and add the following line to the end (**replace `<android-sdk-dir>` by the correct directory.**):
   ```bash
-  export PATH=$PATH:<android-sdk-dir>/tools
+  export PATH=$PATH:<android-sdk-dir>/tools:<android-sdk-dir>/platform-tools/
   ```
 
   and finally reload the user profile settings:
