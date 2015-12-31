@@ -6,6 +6,7 @@ This tutorial describes the necessary steps to install and prepare [Apache Cordo
 * [NodeJs](https://nodejs.org/en/)
 * [Node Package Manager (npm)](https://www.npmjs.com/)
 * [Java Development Kit 7 or later (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Android SDK](http://developer.android.com/sdk/installing/index.html)
 
 Instructions are based in the following turorials:  
 https://cordova.apache.org/docs/en/latest/guide/cli/index.html
@@ -67,6 +68,18 @@ and reload environment variables:
 ```bash
 $ source ~/.profile
 ```
+
+## Install Android SDK (Software Development Kit)
+
+1. Download the Stand-alone SDK tools (or, if you prefer, the Android Studio bundle):  http://developer.android.com/sdk/installing/index.html
+
+2. Unzip the file in an appropriate place.
+From now on, `<android-sdk-dir>` refers to the Android SDK installation directory.
+
+3. Change the PATH environment variable to point to <sdk-install-dir>/tools
+
+4. Open the android manager (`<android-sdk-dir>/tools/android`) and install the packages marked by default.
+The previous action will install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API.
 
 ## Install Apache Cordova CLI
 Instructions are based on:  
