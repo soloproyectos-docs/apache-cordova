@@ -82,6 +82,13 @@ Edit the `~/.profile` file and add the following line:
 export PATH=$PATH:<android-sdk-dir>/tools
 ```
 
+And reload the user profile settings:
+```bash
+# appends the following line to the ~/.profile file (replace <android-sdk-dir> by the correct directory):
+# export PATH=$PATH:<android-sdk-dir>/tools
+$ <your-preferred-editor> ~/.profile
+```
+
 4. Open the android manager (`<android-sdk-dir>/tools/android`) and install the packages marked by default.
 The previous action will install 'Android SDK Platform-tools', 'Android SDK Build-tools' and the latest Android API.
 
