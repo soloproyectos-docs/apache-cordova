@@ -65,7 +65,7 @@ and change the environment `PATH` path variable by adding the following line to 
 export JAVA_HOME=/usr/lib/jvm/<jdk-dir>
 ```
 
-and finally re-logging to make the changes persistent.
+and finally re-logging to make the changes permanent.
 
 ## Install Android SDK tools
 
@@ -82,7 +82,7 @@ and finally re-logging to make the changes persistent.
   export PATH=$PATH:<android-sdk-dir>/tools:<android-sdk-dir>/platform-tools/
   ```
 
-  and finally re-logging to make the changes persistent.
+  and finally re-logging to make the changes permanent.
   
 ## Install GenyMotion (Optional)
 
