@@ -129,5 +129,6 @@ $ cordova -v
   Using GenyMotion is optional. You can run the following command directly. In that case Apache Cordova will open the Android SDK Emulator. But I prefer to use GenyMotion for the reasons commented previously.
   
   ```bash
+  # run android platform in the current emulator instance
   $ cordova run android
   ```
