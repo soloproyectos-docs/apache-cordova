@@ -18,7 +18,7 @@ https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
 ```bash
 $ sudo apt-get install git
 
-# verify that nodejs was installed correctly
+# verify that git was installed correctly
 $ git --version
 git version 1.9.1
 ```
