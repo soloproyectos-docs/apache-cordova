@@ -118,9 +118,9 @@ $ cordova -v
   ```bash
   # create a project
   $ cordova create test com.my_domain.test Test
-  $ cd test
   
   # add and compile the android platform
+  $ cd test
   $ cordova platform add android
   $ cordova build android
   ```
